@@ -1,0 +1,26 @@
+{
+  "name": "nodejs14-graphql",
+  "version": "1.0.0",
+  "description": "NodeJS14-graphql function",
+  "main": "main/handler.js",
+  "scripts": {
+    "prepare-function": "",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "SBT",
+  "staticContentFolders": [],
+  "dependencies": {
+    "@apollo/client": "^3.3.10",
+    "@salutejs/i18n": "^0.1.1",
+    "@salutejs/memory": "^0.1.1",
+    "@salutejs/recognizer": "^0.1.1",
+    "@salutejs/scenario": "^0.1.1",
+    "cross-fetch": "^3.0.6",
+    "graphql": "^15.5.0",
+    "prom-client": "13.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
